@@ -31,6 +31,29 @@ li a {
 
 .google_logo {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
+    clear: right;
+    padding-top: 100px;
+
 }
 
+.centered {
+    display: block;
+    margin: 25px auto;
+    width: 40%;
+}
+
+.searchContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .searchIcon {
+    padding: 0.5rem;
+  }
+  
+  .searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+  }
