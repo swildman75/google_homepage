@@ -33,20 +33,17 @@ li a {
     display: block;
     margin: 0 auto; 
     clear: right;
-    padding-top: 100px;
+    padding-top: 75px;
 
-}
-
-.centered {
-    display: block;
-    margin: 25px auto;
-    width: 40%;
 }
 
 .searchContainer {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
+    display: block;
+    margin: 25px auto;
+    width: 40%;
   }
   
   .searchIcon {
@@ -56,4 +53,16 @@ li a {
   .searchBox {
     border: 0;
     padding: 0.5rem 0.5rem 0.5rem 0;
+  }
+
+  .centered {
+      text-align: center;
+  }
+
+  .button {
+      border: none;
+      height: 2rem;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
   }
